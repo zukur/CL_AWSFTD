@@ -20,7 +20,7 @@ resource "aws_network_interface_sg_attachment" "fmc_mgmt_attachment" {
 resource "aws_network_interface" "srv-a-nic" {
   subnet_id         = aws_subnet.subnet_inside-a.id
   source_dest_check = false
-  private_ips = ["10.42.2.101"]
+  private_ips = ["10.42.2.100"]
   tags = {
       Name = "CL-FTD-srv-a-nic"
   }

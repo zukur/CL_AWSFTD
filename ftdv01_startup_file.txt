@@ -4,6 +4,6 @@
   "Hostname":       "awsftdv01",
   "ManageLocally":  "No",
   "FmcIp":          "10.42.3.100",
-  "FmcRegKey":      "C1sco12345",
+  "FmcRegKey":      "cisco123",
   "FmcNatId":       ""
 }
