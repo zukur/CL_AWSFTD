@@ -3,11 +3,8 @@
 hostnamectl set-hostname oob-jh
 
 apt update -y
-apt-get install -y python3
-curl -O https://bootstrap.pypa.io/get-pip.py
-python3 get-pip.py --user
-apt-get install -y haproxy
-pip3 install requests
+apt-get install -y python3 python3-pip
+pip3 install openpyxl requests simplejson termcolor
 
 sed -i -e '/PasswordAuthentication/ s/no/yes/' /etc/ssh/sshd_config
 systemctl restart sshd
