@@ -1,2 +1,2 @@
-password = "C1sco12345!"
+password = "C1sco12345"
 region = "eu-north-1"
