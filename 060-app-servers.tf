@@ -18,7 +18,7 @@ data "aws_ami" "ubuntu" {
 }
 
 ###########################################
-#### Deploy linux servers
+#### Deploy linux server
 ###########################################
 resource "aws_instance" "srv-a" {
   ami           = data.aws_ami.ubuntu.id
